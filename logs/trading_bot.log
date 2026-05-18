@@ -1,0 +1,10 @@
+2026-05-18 22:40:12 | INFO     | bot.orders | Order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-05-18 22:40:12 | INFO     | bot.client | Placing order: symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None
+2026-05-18 22:40:13 | INFO     | httpx | HTTP Request: POST https://testnet.binancefuture.com/fapi/v1/order "HTTP/1.1 200 OK"
+2026-05-18 22:40:13 | INFO     | bot.client | Order accepted: orderId=13157225438 status=NEW
+2026-05-18 22:40:13 | INFO     | bot.orders | Order response: {'orderId': 13157225438, 'status': 'NEW', 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'executedQty': '0.0000', 'avgPrice': '0.00', 'origQty': '0.0010', 'price': '0.00'}
+2026-05-18 22:42:40 | INFO     | bot.orders | Order request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 90000.0}
+2026-05-18 22:42:40 | INFO     | bot.client | Placing order: symbol=BTCUSDT side=SELL type=LIMIT qty=0.001 price=90000.0
+2026-05-18 22:42:41 | INFO     | httpx | HTTP Request: POST https://testnet.binancefuture.com/fapi/v1/order "HTTP/1.1 200 OK"
+2026-05-18 22:42:41 | INFO     | bot.client | Order accepted: orderId=13157234311 status=NEW
+2026-05-18 22:42:41 | INFO     | bot.orders | Order response: {'orderId': 13157234311, 'status': 'NEW', 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'executedQty': '0.0000', 'avgPrice': '0.00', 'origQty': '0.0010', 'price': '90000.00'}
